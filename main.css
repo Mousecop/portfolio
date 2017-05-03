@@ -103,10 +103,12 @@ nav a {
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 50px;
+    color: #26A69A;
 }
 
 .blue-underline {
     border-bottom: 2px solid #4DB6AC;
+    padding: 4px;
 }
 .blue-underline:hover {
     background-color: #4DB6AC;
@@ -220,6 +222,7 @@ footer p{
     color:  #FFF;
     font-size: 15px;
     margin-top: 0;
+    color: #26A69A;
 }
 
 @media only screen and (max-width: 640px) {
@@ -235,6 +238,23 @@ footer p{
     .pomo-gitto-about {
         margin-top: 80px;
         padding-left: 0px;
+    }
+
+    .about-me-p {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .contact-info-p {
+        font-size: 15px;
+    }
+
+    .contact-title {
+        font-size: 20px;
+    }
+
+    .project-title {
+        margin-top: 14px;
     }
 }
 
