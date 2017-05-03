@@ -46,7 +46,7 @@ nav li {
     font-size: 22px;
     margin-left: 25px;
     letter-spacing: 1px;
-    color: white;
+    color: #FAFAFA;
     /*background-color: #333;*/
     padding: 10px 15px;
     height: 51px;
@@ -68,7 +68,7 @@ nav a {
   cursor: pointer;
   display: none;
   font-size: 22px;
-  color: white;
+  color: #FAFAFA;
   border: none;
 }
 
@@ -88,13 +88,13 @@ nav a {
 
 .intro-title {
     padding-top: 6rem;
-    color: #fff;
+    color: #FAFAFA;
     font-size: 3rem;
     margin-top: 0px;
 }
 
 .intro-body {
-    color: #FFF;
+    color: #FAFAFA;
     font-size: 33px;
 }
 
@@ -112,7 +112,7 @@ nav a {
 }
 .blue-underline:hover {
     background-color: #4DB6AC;
-    color: #FFF;
+    color: #FAFAFA;
 }
 
 .pomo-gitto-about p{
@@ -136,7 +136,7 @@ nav a {
     top: 20px;
     padding: 10px 15px;
     background-color: #00796B;
-    color: #FFF!important;
+    color: #FAFAFA!important;
 }
 
 .git-button:hover {
@@ -184,7 +184,7 @@ hr {
     min-height: 83%;
     min-width: 1024px;
     width: 100%;
-    color: #FFF;
+    color: #FAFAFA;
     font-weight: bold;
     margin-top: 80px;
 } 
