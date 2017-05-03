@@ -62,7 +62,7 @@ nav a {
 
 .handle {
   width: 100%;
-  background-color: grey;
+  background-color: #333;
   text-align: left;
   padding: 10px 15px;
   cursor: pointer;
@@ -101,7 +101,7 @@ nav a {
 .project-title {
     text-align: center;
     font-size: 30px;
-    margin-top: 10px;
+    margin-top: 18px;
     margin-bottom: 50px;
     color: #26A69A;
 }
@@ -185,7 +185,6 @@ hr {
     min-width: 1024px;
     width: 100%;
     color: #FAFAFA;
-    font-weight: bold;
     margin-top: 80px;
 } 
 
@@ -305,5 +304,6 @@ footer p{
 
   .intro-body {
       font-size: 18px;
+      padding: 5px;
   }
 }
