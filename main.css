@@ -43,7 +43,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    font-size: 22px;
+    font-size: 24px;
     margin-left: 25px;
     letter-spacing: 1px;
     color: #FAFAFA;
@@ -59,6 +59,10 @@ nav li:hover {
 nav a {
     display: block;
 } 
+
+nav i {
+    font-size: 26px;
+}
 
 .handle {
   width: 100%;
