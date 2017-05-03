@@ -87,9 +87,10 @@ nav a {
 }
 
 .intro-title {
-    padding-top: 4rem;
+    padding-top: 6rem;
     color: #fff;
     font-size: 3rem;
+    margin-top: 0px;
 }
 
 .intro-body {
@@ -102,11 +103,6 @@ nav a {
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 50px;
-}
-
-.about-me {
-    margin-bottom: 100px;
-    /*margin-top: 186px;*/
 }
 
 .blue-underline {
@@ -169,9 +165,61 @@ hr {
 }
 
 .about-me-title {
-    margin-top: 180px;
     text-align: center;
     font-size: 30px;
+    padding-top: 145px;
+    color: #26A69A;
+    margin-top: 0px;
+}
+
+#about-me {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.9)),url("./images/fog-atl.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*background-position: bottom;*/
+    background-position: center;
+    background-size: cover;
+    min-height: 83%;
+    min-width: 1024px;
+    width: 100%;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 80px;
+} 
+
+.about-me {
+    /*margin-bottom: 100px;*/
+    height: 100%;
+    text-align: center;
+}
+
+.contact {
+    /*margin-top: 100px;*/
+    text-align: center;
+}
+
+.bottom-hr {
+    width: 60%;
+    margin-top: 24px;
+    border: 1px solid #E0F2F1;
+}
+
+.contact-title {
+    color: #26A69A;
+    font-size: 30px;
+}
+
+footer {
+    height: 66px;
+    background-color: #333;
+}
+
+footer p{
+    text-align: center;
+    padding: 22px;
+    color:  #FFF;
+    font-size: 15px;
+    margin-top: 0;
 }
 
 @media only screen and (max-width: 640px) {
@@ -182,6 +230,11 @@ hr {
 
     .space-desktop {
         display: none;
+    }
+
+    .pomo-gitto-about {
+        margin-top: 80px;
+        padding-left: 0px;
     }
 }
 
@@ -213,8 +266,17 @@ hr {
   .intro {
       min-width: 100%;
       background-attachment: scroll;
-      height: 700px;
+      height: 500px;
       text-align: center;
+  }
+
+  #about-me {
+      background-attachment: scroll;
+      min-width: 100%;
+  }
+
+  .about-me-title {
+      padding-top: 20%;
   }
 
   .intro-title {
