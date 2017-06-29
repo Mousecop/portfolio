@@ -118,7 +118,6 @@ nav i {
 
 .blue-underline {
     border-bottom: 2px solid #4DB6AC;
-    padding: 4px;
 }
 .blue-underline:hover {
     background-color: #4DB6AC;
@@ -180,15 +179,14 @@ hr {
     text-align: center;
     font-size: 30px;
     padding-top: 110px;
-    color: #0e6960;
+    color: #63e4d8;
     margin-top: 0px;
 }
 
 #about-me {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.9)),url("./images/fog-atl.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.9)),url("./images/atl-wallpaper3.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    /*background-position: bottom;*/
     background-position: center;
     background-size: cover;
     min-height: 83%;
@@ -216,7 +214,7 @@ hr {
 }
 
 .contact-title {
-    color: #26A69A;
+    color: #63e4d8;
     font-size: 30px;
 }
 
@@ -260,10 +258,6 @@ footer p{
 
     .contact-title {
         font-size: 20px;
-    }
-
-    .project-title {
-        margin-top: 14px;
     }
 }
 
@@ -315,5 +309,9 @@ footer p{
   .intro-body {
       font-size: 18px;
       padding: 5px;
+  }
+
+  .contact-info {
+      margin-bottom: 30px;
   }
 }
